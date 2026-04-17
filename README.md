@@ -1,16 +1,27 @@
-# React + Vite
+Lucky Number App!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    What the app does:
 
-Currently, two official plugins are available:
+The Lucky Number App generates a random lucky number when the user clicks the button.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Features:
+1. Displays a lucky number in the header
+2. Generates a random number between 1 and 100
+3. Updates instantly when the button is pressed
+4. Shows a footer message for the user
 
-## React Compiler
+    How to install dependencies!
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+First, open the project folder in your terminal and run:
 
-## Expanding the ESLint configuration
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This installs all required packages from the package.json file.
+
+    How to run the app!
+
+After installing dependencies, start the development server:
+
+npm run dev
+
+Then open the local address shown in your terminal.
