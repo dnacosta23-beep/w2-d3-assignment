@@ -1,0 +1,23 @@
+.App {
+  max-width: 700px ;
+  margin: 40px auto;   
+  background-color:lightcyan;
+  font-family:serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+header {
+  background-color: lightgreen;
+  padding: 20px;
+}
+button {
+  background-color: lightblue;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
